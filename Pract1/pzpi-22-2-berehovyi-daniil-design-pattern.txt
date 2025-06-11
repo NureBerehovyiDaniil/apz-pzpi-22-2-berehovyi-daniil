@@ -1,14 +1,6 @@
-﻿Харківський університет радіоелектроніки
+Харківський університет радіоелектроніки
 Факультет комп'ютерних наук
 Кафедра програмної інженерії
-
-
-
-
-
-
-
-
 
 
 
@@ -17,30 +9,6 @@
 з практичної роботи №1
 з дисципліни "Архітектура програмного забезпечення"
 на тему: "Патерн проєктування Адаптер, Спостерігач, Абстрактна фабрика, Декоратор"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Виконав
@@ -57,15 +25,218 @@
 
 
 
+Харків 2025
+1 ІСТОРІЯ ЗМІН
+№		Дата	Версія звіту	Опис змін та виправлень   
+1	05.05.2025	0.1	Створення презентації
+2	05.05.2025	0.1	Створення звіту
+3	10.05.2025	0.1	Створення демонстраційної програми для патернів
 
+2 ЗАВДАННЯ
+Завдання на практичне заняття 1 (ПЗ1):
+1.	Підготувати доповідь на тему: «Шаблон (патерн) проєктування ПЗ»
+(із книг: Ґамма, “ООП. Патерни проєктування”, GoF, крім патерна Singletone)
+2.	Створити та оформити слайди презентації доповіді
+3.	Створити та опублікувати на YouTube відеозапис доповіді
+4.	Оформити та завантажити на dl.nure.ua звіт до виконаної роботи
+5.	При потребі створити та налаштувати у GitHub обліковий запис для облікового запису студента в домені @nure.ua
+6.	Створити для виконання завдань з дисципліни GitHub репозиторій iз вказаним на https://dl.nure.ua іменем та з головною гілкою main
+7.	Створити у корені створеного репозиторію файл README.md з вказаним далі змістом та вказані далі директорії для окремих завдань
+8.	Експортувати звіт у файл у простому текстововому форматі та завантажити цей файл у директорію Pract1 у репозиторії GitHub
+9.	Завантажити у вказану далі піддиректорію увесь програмний код, який розглядається у доповіді ПЗ1
 
+3 ОПИС ВИКОНАНОЇ РОБОТИ
+У рамках виконання лабораторної роботи було розглянуто тему «Шаблони (патерни) проєктування програмного забезпечення», згідно з класичною класифікацією, наведеною у книзі "Design Patterns" авторства банди чотирьох (GoF). Було обрано чотири шаблони: Абстрактна фабрика (Abstract Factory), Адаптер (Adapter), Декоратор (Decorator) та Спостерігач (Observer). Патерн Singleton, відповідно до умов завдання, не розглядався.
 
+Було підготовлено текст доповіді, що охоплює теоретичний опис кожного шаблону, його призначення, переваги та приклади практичного застосування. У доповіді також детально описано реалізацію цих шаблонів мовою програмування Python з повним робочим кодом. Для кожного патерну створено приклад застосування з поясненням, що дає можливість краще зрозуміти його принцип роботи.
+На основі доповіді створено презентацію у форматі PowerPoint, яка структуровано подає основні поняття шаблонів, класифікацію та детальний розгляд кожного з чотирьох шаблонів із прикладами. Презентацію було використано для запису відеодоповіді, яка була опублікована на платформі YouTube згідно з вимогами завдання.
+Крім того, для зберігання та організації результатів роботи було створено обліковий запис GitHub, а також створено репозиторій із назвою згідно з вимогами, з головною гілкою main. У кореневому каталозі репозиторію розміщено файл README.md, а також створено директорію Pract1, у яку завантажено текстовий звіт у форматі .txt та всю вихідну програму, реалізовану в межах теми доповіді.
+На завершення, виконано експорт і завантаження повного звіту в систему dl.nure.ua, що завершило оформлення лабораторної роботи.
 
+4 ВИСНОВКИ
+У результаті виконання лабораторної роботи було детально вивчено ключові шаблони проєктування програмного забезпечення, їхню класифікацію, призначення та практичне застосування. Зокрема, було розглянуто чотири шаблони з класичної книги GoF: Абстрактна фабрика, Адаптер, Декоратор та Спостерігач. Кожен із них реалізовано на мові програмування Python, що дозволило краще засвоїти принципи їхньої роботи через практику.
+Здобуті знання продемонстрували, як шаблони проєктування допомагають структурувати код, підвищують його гнучкість, повторне використання та полегшують супровід. Практичні приклади дозволили наочно побачити, як ці патерни застосовуються в реальних задачах, зокрема для абстрагування створення об’єктів, адаптації несумісних інтерфейсів, динамічного розширення функціональності та реалізації реактивної поведінки об’єктів.
+Крім теоретичної та програмної частини, було виконано повне оформлення доповіді: створено презентацію, записано відеозапис, оформлено звіт, створено GitHub-репозиторій із відповідною структурою та завантажено необхідні файли у систему dl.nure.ua.
 
+ДОДАТОК А
+Відеозапис презентації результатів лабораторної роботи: https://
+Хронологічний опис відеозапису:
 
+ДОДАТОК Б
+СЛАЙДИ ПРЕЗЕНТАЦІЇ
+ 
+Рисунок Б.1 – Вступ слайд
+ 
+Рисунок Б.2 - Що таке патерни
+ 
+Рисунок Б.3 - Класифікація шаблонів (GoF)
+ 
+Рисунок Б.4 – Патерн Abstract Factory — суть та застосування
 
+ 
+Рисунок Б.5 – Патерн Adapter — адаптація інтерфейсів
 
+ 
+Рисунок Б.6 – Патерн Decorator — розширення об’єкта 
 
+ 
+Рисунок Б.7 - Висновки
 
+ДОДАТОК Б
 
-Харків 2025 р.
+from abc import ABC, abstractmethod
+
+# Абстрактні продукти
+class Button(ABC):
+    @abstractmethod
+    def render(self): pass
+
+class Checkbox(ABC):
+    @abstractmethod
+    def render(self): pass
+
+# Конкретні продукти
+class WinButton(Button):
+    def render(self): print("Rendering Windows Button")
+
+class MacButton(Button):
+    def render(self): print("Rendering Mac Button")
+
+class WinCheckbox(Checkbox):
+    def render(self): print("Rendering Windows Checkbox")
+
+class MacCheckbox(Checkbox):
+    def render(self): print("Rendering Mac Checkbox")
+
+# Абстрактна фабрика
+class GUIFactory(ABC):
+    @abstractmethod
+    def create_button(self): pass
+
+    @abstractmethod
+    def create_checkbox(self): pass
+
+# Конкретні фабрики
+class WinFactory(GUIFactory):
+    def create_button(self): return WinButton()
+    def create_checkbox(self): return WinCheckbox()
+
+class MacFactory(GUIFactory):
+    def create_button(self): return MacButton()
+    def create_checkbox(self): return MacCheckbox()
+
+# Клієнтський код
+def create_ui(factory: GUIFactory):
+    button = factory.create_button()
+    checkbox = factory.create_checkbox()
+    button.render()
+    checkbox.render()
+
+class OldPrinter:
+    def specific_request(self):
+        return "OLD PRINTER"
+
+class NewPrinter:
+    def print(self):
+        return "NEW PRINTER"
+
+class PrinterAdapter:
+    def __init__(self, old_printer):
+        self.old_printer = old_printer
+
+    def print(self):
+        return self.old_printer.specific_request()
+
+# Використання
+def use_printer(printer):
+    print(printer.print())
+
+old = PrinterAdapter(OldPrinter())
+new = NewPrinter()
+
+use_printer(old)  # OLD PRINTER
+use_printer(new)  # NEW PRINTER
+
+class Text:
+    def render(self):
+        return "Hello"
+
+class TextDecorator:
+    def __init__(self, wrapped):
+        self._wrapped = wrapped
+
+    def render(self):
+        return self._wrapped.render()
+
+class BoldDecorator(TextDecorator):
+    def render(self):
+        return f"<b>{super().render()}</b>"
+
+class ItalicDecorator(TextDecorator):
+    def render(self):
+        return f"<i>{super().render()}</i>"
+
+# Використання
+simple = Text()
+bold = BoldDecorator(simple)
+italic_bold = ItalicDecorator(bold)
+
+print(italic_bold.render())  # <i><b>Hello</b></i>
+
+class Subject:
+    def __init__(self):
+        self._observers = []
+        self._state = None
+
+    def attach(self, observer):
+        self._observers.append(observer)
+
+    def detach(self, observer):
+        self._observers.remove(observer)
+
+    def notify(self):
+        for observer in self._observers:
+            observer.update(self._state)
+
+    def change_state(self, value):
+        self._state = value
+        self.notify()
+
+class Observer:
+    def update(self, state):
+        print(f"Updated with new state: {state}")
+
+# Використання
+subject = Subject()
+obs1 = Observer()
+obs2 = Observer()
+subject.attach(obs1)
+subject.attach(obs2)
+subject.change_state("data loaded")
+
+def main():
+    print("=== Abstract Factory ===")
+    create_ui(WinFactory())
+    create_ui(MacFactory())
+
+    print("\n=== Adapter ===")
+    old = PrinterAdapter(OldPrinter())
+    new = NewPrinter()
+    use_printer(old)
+    use_printer(new)
+
+    print("\n=== Decorator ===")
+    text = Text()
+    decorated = ItalicDecorator(BoldDecorator(text))
+    print(decorated.render())
+
+    print("\n=== Observer ===")
+    subject = Subject()
+    observer1 = Observer()
+    observer2 = Observer()
+    subject.attach(observer1)
+    subject.attach(observer2)
+    subject.change_state("New Event")
+
+if __name__ == "__main__":
+    main()
